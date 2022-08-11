@@ -1,0 +1,19 @@
+{
+    "name": "project-team-generator",
+    "version": "1.0.0",
+    "description": "This is a commandline application to create a team and display the individuals information",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index",
+      "watch": "nodemon index",
+      "test": "jest"
+    },
+    "author": "Cody",
+    "license": "ISC",
+    "dependencies": {
+      "inquirer": "^6.2.1"
+    },
+    "devDependencies": {
+      "jest": "^24.8.0"
+    }
+  }
